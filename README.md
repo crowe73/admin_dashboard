@@ -3,3 +3,5 @@
 # Development Log
 
 05/08/2022 22:04 - Setup project.
+
+05/08/2022 23:24 - Main layuot of project.
