@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 html, body
 {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans serif;
 }
 
 .container
@@ -9,7 +12,7 @@ html, body
     border: 1px solid blue;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    gap: 4px;
+    /*gap: 4px;*/
 }
 
 .sidebar
@@ -21,8 +24,89 @@ html, body
 
 .header
 {
+    background-color: white;
     border: 1px solid blue;
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 2fr .7fr;
+    align-items: center;
+}
+
+.search
+{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    gap: 10px;
+}
+
+.magnify
+{
+    height: 25px;
+    width: auto;
+    padding-left: 20px;
+}
+
+input
+{
+    width: 700px;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+.presence
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.bell
+{
+    height: 25px;
+    width: auto;
+}
+
+.profile-image
+{
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.user-name
+{
+    font-weight: 900;
+}
+
+.account-info
+{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.account-info > .profile-image
+{
+    margin-left: 20px;
+}
+
+.header-buttons
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+button
+{
+    background-color: rgb(54, 148, 236);
+    color: white;
+    font-weight: 900;
+    border-radius: 15px;
+    padding: 5px 20px;
 }
 
 .main-content
