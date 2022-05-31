@@ -9,3 +9,5 @@
 05/08/2022 23:35 - Minor change in main-content element.
 
 05/29/2022 19:41 - Complete header section.
+
+05/30/2022 21:00 - Start work on sidebar.
