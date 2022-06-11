@@ -11,3 +11,5 @@
 05/29/2022 19:41 - Complete header section.
 
 05/30/2022 21:00 - Start work on sidebar.
+
+06/11/2022 18:20 - Finish sidebar.
