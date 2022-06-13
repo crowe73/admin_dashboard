@@ -13,3 +13,5 @@
 05/30/2022 21:00 - Start work on sidebar.
 
 06/11/2022 18:20 - Finish sidebar.
+
+06/13/2022 00:45 - Add elements to Main content section.
