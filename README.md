@@ -15,3 +15,5 @@
 06/11/2022 18:20 - Finish sidebar.
 
 06/13/2022 00:45 - Add elements to Main content section.
+
+06/18/2022 22:26 - Add css styling to Main Content section.
