@@ -17,3 +17,5 @@
 06/13/2022 00:45 - Add elements to Main content section.
 
 06/18/2022 22:26 - Add css styling to Main Content section.
+
+06/19/2022 00:50 - Final tweaks and cleanup.
